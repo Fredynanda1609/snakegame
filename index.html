@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+
+<body>
+    <section>
+        <div class="Hotbar">
+            <img src="./src/img/Snake_OG-logo.jpg" alt="">
+        </div>
+    </section>
+    <div id="game-container">
+        <canvas id="gc" class="game-canvas" width="400" height="400"></canvas>
+    </div>
+    <div class="keys">
+        <a class="up arr" onclick="Snake.action ('up')">
+            <i class="chevron up"></i></a>
+        <br />
+        <a class="left arr" onclick="Snake.action ('left')">
+            <i class="chevron left"></i></a>
+        <a class="down arr" onclick="Snake.action ('down')">
+            <i class="chevron down"></i>
+            <a class="rigth arr" onclick="Snake.action('rigth')">
+                <i class="chevron rigth"></i></a>
+    </div>
+    <footer><img src="./src/img/Gemini_Generated_Image_x5w0p7x5w0p7x5w0.jpg" alt="logo"></footer>
+    <script type="text/javascript" src="./src/game.js"></script>
+</body>
+
+</html>
